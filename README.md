@@ -18,6 +18,12 @@
 
 ---
 
+## Daily Logs
+
+- 2026-01-19: See `2026-01-19/` for today's TODO and notes
+
+---
+
 ## Current Access
 
 ### Application
@@ -123,8 +129,8 @@
 
 ## Next Steps
 
-1. Complete initial audit
-2. Archive duplicate chat files
-3. Begin RLS policy review
-4. Identify quick wins
-5. Report findings to client
+1. Complete initial audit (see `2026-01-19/TODO.md`)
+2. RLS policy quick scan and notes
+3. Slow query export + index plan
+4. Draft 5 quick wins and Week 1 change plan
+5. Report findings to client and push updates

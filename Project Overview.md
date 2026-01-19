@@ -1,10 +1,10 @@
-# SnapCoat CRM - Project Overview
+# [[SnapCoat CRM]] - Project Overview
 
 ## Project Summary
 
-**Client:** Braiden Smith, SnapCoat LLC  
-**Project Type:** SaaS CRM for Painting Contractors  
-**Status:** Live production with paying clients (pre-revenue stage)  
+**Client:** Braiden Smith, [[SnapCoat LLC ]] 
+**Project Type:** [[SaaS CRM]] for Painting Contractors  
+**Status:** [[Live production]] with paying clients ([[pre-revenue stage]])  
 **Start Date:** January 19, 2026
 
 ---
@@ -12,24 +12,24 @@
 ## Technical Stack
 
 ### Frontend
-- **Hosting:** Render
-- **Environments:** Production + Development/Staging
-- **Features:** Comprehensive logging available
+- **[[Hosting]]:** [[Render]]
+- **[[Environments]]:** Production + Development/[[Staging]]
+- **Features:** [[Comprehensive logging available]]
 
 ### Backend
-- **Platform:** Supabase (PostgreSQL + Auth + Storage)
-- **Security:** Row-Level Security (RLS) implemented
+- **Platform:** [[Supabase]] (PostgreSQL + Auth + Storage)
+- **Security:** [[Row-Level Security (RLS) implemented]]
 - **Databases:** 
   - Production: 190 tables, 0 functions, 0 replicas
   - Development: 189 tables, 0 functions, 0 replicas
 
 ### Infrastructure
-- **Origin:** Migrated from Replit → Render + Supabase
-- **Monitoring:** Render metrics (CPU, Memory, Network)
+- **Origin:** Migrated from [[Replit]] → Render + Supabase
+- **Monitoring:** [[Render metrics]] (CPU, Memory, Network)
 - **Performance:** 
-  - Response times: 1-1.5s average (p90)
-  - Memory: 25-40% utilization (2GB limit)
-  - CPU: 1 vCPU with burst capacity
+  - [[Response times]]: 1-[[1.5s average (p90)]]
+  - [[Memory]]: 25-40% utilization (2GB limit)
+  - CPU: 1 vCPU with [[burst capacity]]
 
 ---
 
@@ -38,8 +38,8 @@
 ### Users & Scale
 - **User Accounts:** ~35 active users
 - **Companies:** ~15 companies registered
-- **Subscriptions:** 5 active subscriptions
-- **Production Usage:** 1 painting company fully operational
+- **Subscriptions:** 5 active [[subscriptions]]
+- **Production Usage:** 1 painting company fully [[operational]]
 
 ### System Health (Last 48 Hours)
 - **REST Requests:** 6 (Development), 6 (Production)
@@ -49,10 +49,10 @@
 - **Total Requests:** ~20-50k daily (variable peaks)
 
 ### Known Issues
-- **Development:** 247 issues need attention (5 security, 242 performance)
+- **Development:** [[247 issues]] need attention (5 security, 242 performance)
 - **Production:** 49 issues need attention (15 security, 34 performance)
-- Slow queries detected (3.63-3.74s average)
-- RLS policy warnings on multiple tables
+- [[Slow queries]] detected (3.63-3.74s average)
+- [[RLS policy warnings ]]on multiple tables
 
 ---
 
@@ -64,13 +64,13 @@ Painting contractors across the United States who need:
 - Project estimation and quoting
 - Job tracking and management
 - Payment processing
-- Communication integration (Quo, OpenPhone)
+- Communication integration ([[Quo]], [[OpenPhone]])
 
-### Current Pain Points
+### Current [[Pain Points]]
 1. **Onboarding Friction:** Users struggle to get started
 2. **Data Migration:** Difficult to import from existing CRM/estimation systems
-3. **Missing Templates:** Need better starter templates and production rates
-4. **Integration Stability:** Payment, Quo, OpenPhone APIs need hardening
+3. **Missing Templates:** Need better [[starter templates]] and [[production rates]]
+4. **Integration [[Stability]]:** Payment, Quo, OpenPhone APIs need hardening
 
 ---
 
@@ -78,15 +78,15 @@ Painting contractors across the United States who need:
 
 ### Phase 1: Stabilization (Current)
 1. **Security Hardening**
-   - Audit RLS policies for tenant isolation
-   - Fix cross-tenant data leak risks
-   - Implement proper auth boundaries
+   - [[Audit]] RLS policies for [[tenant isolation]]
+   - Fix cross-tenant data [[leak]] risks
+   - Implement [[proper]] [[auth boundaries]]
 
 2. **Performance Optimization**
-   - Eliminate N+1 query patterns
-   - Add missing indexes on foreign keys
-   - Optimize slow RLS evaluations
-   - Tune connection pooling
+   - Eliminate [[N+1 query patterns]]
+   - Add missing [[indexes]] on foreign keys
+   - Optimize [[slow RLS evaluations]]
+   - [[Tune connection pooling]]
 
 3. **Bug Fixes**
    - Production bug triage and resolution
