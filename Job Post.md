@@ -1,0 +1,5 @@
+#### Senior Full-Stack Engineer for SaaS [[CRM]]
+
+**Summary**
+
+SnapCoat CRM is a live, production [[SaaS]] with paying clients. We need a true Senior Full-Stack Engineer to start immediately and help us [[harden security]], optimize performance, and fix production bugs fast without breaking what already works. This is not a [[prototype]] or “learning” role — we want a proven professional who has owned real systems in production. Responsibilities include security hardening, performance optimization, and production bug fixing. Requirements include senior-level full-stack experience, strong debugging skills, and security-first engineering habits. To apply, include 2-3 production apps you've owned, a security hardening example, your [[triage process]] for production bugs, availability, and hourly rate.
